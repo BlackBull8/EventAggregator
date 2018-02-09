@@ -1,0 +1,12 @@
+﻿<Window x:Class="EventAggregatorWpfDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EventAggregatorWpfDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+        <Button x:Name="OpenAnotherMainWindow" Content="打开另外一个窗体" Click="OpenAnotherMainWindow_OnClick"></Button>
+    </StackPanel>
+</Window>
