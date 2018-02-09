@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace EventAggregator
 {
-    public class EventAggregator
+    internal class EventAggregator
     {
         private readonly Dictionary<string, List<EventMessageHandler>> _handlers;
 
